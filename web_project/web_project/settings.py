@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'tasks',
     'signup',
     'login',
+    'chatbot',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

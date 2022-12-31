@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import include, path
 from signup.views import signup
 from login.views import login
+from chatbot.views import index
 
 urlpatterns =[
     path('admin/', admin.site.urls),
@@ -24,5 +25,6 @@ urlpatterns =[
     path('newyear/', include("newyear.urls")),
     path('tasks/', include("tasks.urls")),
     path("signup/", signup),
-    path('login/', login)
+    path('login/', login),
+    path('chatbot/', index)
 ]
